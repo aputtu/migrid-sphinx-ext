@@ -12,7 +12,7 @@ Currently it contains a custom sphinx extensions that through CSS only allows fo
 * creating accordions
 * creating lightbox images
 
-Further information found in [index.rst](index.rst).
+Further information found in [index.rst](source/index.rst).
 
 Installation:
 -------------
