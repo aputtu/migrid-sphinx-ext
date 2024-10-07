@@ -17,8 +17,4 @@ jobs:
     - name: Install dependencies
       run: make dependencies
 
-    - uses: ammaraskar/sphinx-action@master
-      with:
-        docs-folder: ""
-        build-command: "sphinx-build -b html . build"
 
