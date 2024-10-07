@@ -14,8 +14,14 @@ jobs:
     steps:
     - uses: actions/checkout@v4
 
+    - name: Install Sphinx # In order to get build tools  
+      run: pip install sphinx
+
     - name: Install dependencies
       run: make dependencies
+    
+    - name: Locate sphinx-build
+      run: which sphinx-build
 
     - name: Generate HTML
       run: make html
