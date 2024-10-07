@@ -16,7 +16,7 @@ Further information found in [index.rst](source/index.rst).
 
 Installation:
 -------------
-Running `make` will install dependencies and build the documentation.
+Running `make dependencies` and `make html` will install dependencies and build the documentation in html.
 The documentation  itself is show as a Sphinx project.
 
 Systems requirements:
