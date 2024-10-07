@@ -25,7 +25,7 @@ cd migrid-spinx-ext
 make dependencies
 make html
 
-The `make htnml` creates the main HTML page in build folder in ../migrid-sphinx-/build/html/index.html
+The `make html` creates the main HTML page in build folder in ../migrid-sphinx-/build/html/index.html
 
 Systems requirements:
 -------------------
