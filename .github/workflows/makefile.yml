@@ -14,17 +14,11 @@ jobs:
     steps:
     - uses: actions/checkout@v4
 
-    - name: Set up Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.10'
-
     - name: Install dependencies
       run: make dependencies
-    
-    - name: Locate sphinx-build
-      run: which sphinx-build
 
-    - name: Generate HTML
-      run: make html
+    - uses: ammaraskar/sphinx-action@master
+      with:
+        docs-folder: "docs/"
+        build-command: "sphinx-build -b html . _build"
 
