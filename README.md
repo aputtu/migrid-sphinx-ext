@@ -20,12 +20,22 @@ Running `make dependencies` and `make html` will install dependencies and build 
 The documentation  itself is show as a Sphinx project.
 
 More detailed instructions from commandline:
-git clone https://github.com/aputtu/migrid-sphinx-ext.git
-cd migrid-spinx-ext
-make dependencies
-make html
+
+`git clone https://github.com/aputtu/migrid-sphinx-ext.git`
+
+`cd migrid-spinx-ext`
+
+`make dependencies`
+
+`make html`
 
 The `make html` creates the main HTML page in build folder in ../migrid-sphinx-/build/html/index.html
+
+If you have Firefox installed, display main page with:
+
+`firefox build/html/index.html`
+
+
 
 Systems requirements:
 -------------------
